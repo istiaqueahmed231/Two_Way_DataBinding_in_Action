@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         ActivityMainBinding binding= DataBindingUtil.setContentView(this,R.layout.activity_main);
 
-        Person person=new Person("Nigga Boss","niggaboss@6969.com");
+
         binding.setViewmodel(customViewModel);
         binding.setLifecycleOwner(this);
 
